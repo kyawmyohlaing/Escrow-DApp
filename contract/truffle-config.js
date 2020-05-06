@@ -14,9 +14,9 @@ module.exports = {
         gas: 2900000
       },
       tmdnode: {
-        host: "165.22.32.19",
+        host: "165.220.32.190",
         port: 8000,
-        network_id: 38240,
+        network_id: 380240,
         gas: 2900000
       }
   },
