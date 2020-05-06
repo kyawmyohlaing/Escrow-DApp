@@ -126,7 +126,7 @@
         $('#approve-form').submit(function() {
           event.preventDefault();
 
-          ApprovalContract.methods.approve().call({from: fromAddress, gas: 100000},
+          ApprovalContract.methods.approve().call({from: '0x2E2594E9C00E99fC264aD7045fC1BEB50B58b437', gas: 100000},
               function(error, result) {
                 if (error) {
                   console.log('error: ' + error);
